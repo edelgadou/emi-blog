@@ -1,0 +1,15 @@
+---
+title: My top Kaggle submission
+author: Emiliana Delgado
+date: '2018-06-18'
+slug: my-top-kaggle-submission
+categories: []
+tags: []
+---
+
+
+
+<p>My top Kaggle submission was made using a linear regression model. I selected the variables that seemed more important after reading what each one meant. Then I found a kernel in Kaggle that mentioned the weight that each variable contributed to getting the correct prediction, so I added some of the most important variables mentioned there as well.</p>
+<p>I faced a problem when I tried to include some variables such as EXT_SOURCE_2 because it had a lot of missing values. So to include this variable I had to first substitute all of the missing values with the mean of the column.</p>
+<p>At the end, the code for my model looked like this:</p>
+<pre class="r"><code>fit &lt;- glm(TARGET ~ AMT_INCOME_TOTAL + AMT_CREDIT + AMT_GOODS_PRICE + AMT_ANNUITY + EXT_SOURCE_2 + DAYS_BIRTH, train, family = &quot;binomial&quot;)</code></pre>

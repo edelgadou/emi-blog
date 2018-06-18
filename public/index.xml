@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>A Hugo website</title>
+    <link>/</link>
+    <description>Recent content on A Hugo website</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 18 Jun 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>About me</title>
+      <link>/2018/06/18/about-me/</link>
+      <pubDate>Mon, 18 Jun 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/2018/06/18/about-me/</guid>
+      <description>Hi! My name is Emiliana Delgado, I’m from Caracas, Venezuela. I’m currently a student at Bentley University, majoring in Economics-Finance and also pursuing a liberal arts degree in Global Perspectives. I also have a minor in Entrepreneurship. I’m very interested in politics, economics, and technology.
+My hobbies include jogging, playing tennis, snowboarding, hanging out with my friends, and watching every movie and TV show on Netflix.
+My favorite food is pasta.</description>
+    </item>
+    
+    <item>
+      <title>My R package</title>
+      <link>/2018/06/18/my-r-package/</link>
+      <pubDate>Mon, 18 Jun 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/2018/06/18/my-r-package/</guid>
+      <description>The R package me and Abigail created is called TrainTest. The package makes it possible to use a function called “train_test()”, which takes in a csv file from the current R project folder you are using in quotes (ex: “file_name.csv”), the train set percentage, and the test set percentage. The function reads the csv file and creates a train and test set from the specified percentages. The output is a list where the first index returns the training set and the second index refers to the testing set.</description>
+    </item>
+    
+    <item>
+      <title>My top Kaggle submission</title>
+      <link>/2018/06/18/my-top-kaggle-submission/</link>
+      <pubDate>Mon, 18 Jun 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/2018/06/18/my-top-kaggle-submission/</guid>
+      <description>My top Kaggle submission was made using a linear regression model. I selected the variables that seemed more important after reading what each one meant. Then I found a kernel in Kaggle that mentioned the weight that each variable contributed to getting the correct prediction, so I added some of the most important variables mentioned there as well.
+I faced a problem when I tried to include some variables such as EXT_SOURCE_2 because it had a lot of missing values.</description>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>/about/</link>
+      <pubDate>Thu, 05 May 2016 21:48:51 -0700</pubDate>
+      
+      <guid>/about/</guid>
+      <description>This is a &amp;ldquo;hello world&amp;rdquo; example website for the blogdown package. The theme was forked from @jrutheiser/hugo-lithium-theme and modified by Yihui Xie.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,24 @@
+---
+title: About me
+author: Emiliana Delgado
+date: '2018-06-18'
+slug: about-me
+categories: []
+tags: []
+---
+
+Hi! My name is Emiliana Delgado, I'm from Caracas, Venezuela. I'm currently a student at Bentley University, majoring in Economics-Finance and also pursuing a liberal arts degree in Global Perspectives. I also have a minor in Entrepreneurship. I'm very interested in politics, economics, and technology. 
+
+My hobbies include jogging, playing tennis, snowboarding, hanging out with my friends, and watching every movie and TV show on Netflix. 
+
+My favorite food is pasta. If I had to eat one dish for the rest of my life it would be a Spaghetti Bolognese.
+
+```{r pie chart, echo=FALSE}
+slices <- c(90, 10) 
+lbls <- c("Pasta", "Pasta but in blue")
+pct <- round(slices/sum(slices)*100)
+lbls <- paste(lbls, pct) # add percents to labels 
+lbls <- paste(lbls,"%",sep="") # ad % to labels 
+pie(slices,labels = lbls, col=rainbow(length(lbls)),
+  	main="My favorite foods")
+```
